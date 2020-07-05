@@ -1,0 +1,7 @@
+.list {
+  font-size: 20px;
+  line-height: 36px;
+}
+.item::first-letter {
+  text-transform: uppercase;
+}

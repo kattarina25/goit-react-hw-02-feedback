@@ -1,0 +1,23 @@
+.buttons {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons button {
+  width: 30%;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.buttons button::first-letter {
+  text-transform: uppercase;
+}
+.buttons button:active {
+  background-color: #00f0f8d0;
+}
